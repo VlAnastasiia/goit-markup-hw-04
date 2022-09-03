@@ -349,6 +349,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
   width: 44px;
   height: 44px;
   background-color: var(--background-color);
@@ -380,6 +381,37 @@ body {
   padding-bottom: 94px;
 }
 
+/* partners section */
+.section-title.clients{
+  margin-bottom: 50px;
+}
+.client-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.clients-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.client-icon{
+  fill: currentColor;
+}
+.client-link:hover,
+.client-link:focus
+{
+  border-color: var(--accent-color);
+}
+.client-link:hover .client-icon,
+.client-link:focus .client-icon{
+  fill: var(--accent-color);
+}
 /* Footer */
 
 .footer {
@@ -395,7 +427,6 @@ body {
   font-size: 26px;
   line-height: 1.2;
 }
-
 /* footer info */
 
 .address {
