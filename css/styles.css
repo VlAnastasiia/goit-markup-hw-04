@@ -132,21 +132,15 @@ body {
 {
   margin-left: 50px;
 }
-
-.list-header::before
-{
-  content: '';
-  width: 16px;
-  height: 12px;
-  background-position: center;
-  background-repeat: no-repeat;
+.icon {
+  margin-right: 10px;
 }
-.mail::before
-{
-  background-image: url(../images/header/envelope.png);
-  background-size: contain;
+.icon:hover .mail,
+.icon:focus .mail,
+.icon:hover .tel,
+.icon:focus .tel{
+  fill: var(--accent-color);
 }
-
 /* Hero */
 
 .section.hero {
@@ -344,7 +338,19 @@ body {
   width: 270;
   margin-left: 30px;
 }
-
+.list-icon
+{
+  padding: 0;
+  color: #AFB1B8;
+}
+.link-icon{
+  width: 44px;
+  height: 44px;
+}
+.link-icon:hover
+{
+  fill: var(--accent-color);
+}
 /* Sections style */
 
 .section-title {
