@@ -344,6 +344,9 @@ body {
   gap: 10px;
   justify-content: center;
 }
+.socials.list{
+  margin-bottom: 30px;
+}
 .list-icon
 {
   display: flex;
@@ -352,6 +355,7 @@ body {
   width: 44px;
   height: 44px;
   background-color: var(--background-color);
+  border-radius: 50%;
 
 }
 .link-icon{
