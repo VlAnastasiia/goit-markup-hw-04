@@ -338,22 +338,21 @@ body {
   width: 270;
   margin-left: 30px;
 }
-.list-icon
-{
-  border-radius: 50%;
+.list-icon{
   width: 44px;
   height: 44px;
-  padding: 0;
-  color: #AFB1B8;
 }
-.link-icon{
-  width: 20px;
-  height: 16px;
+.list-icon:hover
+{
+  background-color: var(--accent-color);
+}
+.link-icon
+{
   fill: #AFB1B8;
 }
 .link-icon:hover
 {
-  fill: var(--accent-color);
+  fill: var(--background-color);
 }
 /* Sections style */
 
