@@ -346,6 +346,7 @@ body {
   color: #AFB1B8;
 }
 .link-icon{
+  border-radius: 50%;
   width: 20px;
   height: 16px;
   color: #AFB1B8;
