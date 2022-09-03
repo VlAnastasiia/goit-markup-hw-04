@@ -242,33 +242,18 @@ body {
 
   margin-left: 30px;
 }
-.features-item::before
+.feature-icon
 {
   border-radius: 4px;
   margin-bottom: 30px;
   display: block;
-  content: '';
+  width: 270px;
   height: 120px;
   background-color: var(--btn-clr);
   background-repeat: no-repeat;
   background-position: center;
 }
-.sputnik::before
-{
-  background-image: url(../images/feature/group.png);
-}
-.clock::before
-{
-  background-image: url(../images/feature/vector-2.png);
-}
-.comp::before
-{
-  background-image: url(../images/feature/diagram\ 1.png);
-}
-.astronaut::before
-{
-  background-image: url(../images/feature/astronaut\ 1.png);
-}
+
 
 /* images */
 .section.images
