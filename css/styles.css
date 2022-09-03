@@ -346,6 +346,8 @@ body {
   color: #AFB1B8;
 }
 .link-icon{
+  width: 20px;
+  height: 16px;
   color: #AFB1B8;
 }
 .link-icon:hover
