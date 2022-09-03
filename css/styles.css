@@ -338,13 +338,20 @@ body {
   width: 270;
   margin-left: 30px;
 }
-.list-icon{
+.socials{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+/* .list-icon{
   width: 44px;
   height: 44px;
   border-radius: 50%;
 }
 .list-icon:hover
 {
+  display: flex;
+
   background-color: var(--accent-color);
 }
 .link-icon
@@ -354,7 +361,7 @@ body {
 .link-icon:hover
 {
   fill: var(--background-color);
-}
+} */
 /* Sections style */
 
 .section-title {
