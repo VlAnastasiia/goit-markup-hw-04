@@ -340,13 +340,13 @@ body {
 }
 .list-icon
 {
+  border-radius: 50%;
   width: 44px;
   height: 44px;
   padding: 0;
   color: #AFB1B8;
 }
 .link-icon{
-  border-radius: 50%;
   width: 20px;
   height: 16px;
   fill: #AFB1B8;
