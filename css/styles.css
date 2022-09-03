@@ -319,6 +319,7 @@ body {
 .section.team .text {
   margin-top: 10px;
   padding-bottom: 30px;
+  margin-bottom: 16px;
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
@@ -333,7 +334,7 @@ body {
   margin-top: 50px;
 }
 
-.list-team .list+.list
+.list-team .list+.list 
 {
   width: 270;
   margin-left: 30px;
@@ -343,25 +344,16 @@ body {
   gap: 10px;
   justify-content: center;
 }
-/* .list-icon{
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
-.list-icon:hover
+.list-icon
 {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--background-color);
 
-  background-color: var(--accent-color);
 }
-.link-icon
-{
-  fill: #AFB1B8;
-}
-.link-icon:hover
-{
-  fill: var(--background-color);
-} */
 /* Sections style */
 
 .section-title {
