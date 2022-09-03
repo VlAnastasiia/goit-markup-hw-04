@@ -354,6 +354,12 @@ body {
   background-color: var(--background-color);
 
 }
+.list-icon:hover{
+  background-color: var(--accent-color);
+}
+.list-icon:hover .link-icon{
+  fill: var(--background-color);
+}
 /* Sections style */
 
 .section-title {
