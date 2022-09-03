@@ -354,6 +354,9 @@ body {
   background-color: var(--background-color);
 
 }
+.link-icon{
+  fill: currentColor;
+}
 .list-icon:hover{
   background-color: var(--accent-color);
 }
