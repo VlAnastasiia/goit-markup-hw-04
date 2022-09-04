@@ -132,14 +132,9 @@ body {
 {
   margin-left: 50px;
 }
-.icon {
+.header-icon{
+  fill: currentColor;
   margin-right: 10px;
-}
-.icon:hover .mail,
-.icon:focus .mail,
-.icon:hover .tel,
-.icon:focus .tel{
-  fill: var(--accent-color);
 }
 /* Hero */
 
