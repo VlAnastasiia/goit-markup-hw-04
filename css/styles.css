@@ -244,18 +244,17 @@ body {
 }
 .feature-icon-position
 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 4px;
   margin-bottom: 30px;
   display: block;
   width: 270px;
   height: 120px;
-  background-color: var(--btn-clr);
+  background-color: #F5F4FA;
 
 }
-.feature-icon{
-  fill: currentColor;
-}
-
 
 /* images */
 .section.images
@@ -443,6 +442,9 @@ body {
 .socials-sect
 {
   display: flex;
+}
+.socials-sect{
+  flex-basis: 50%;
 }
 /* portfolio filter buttons */
 
