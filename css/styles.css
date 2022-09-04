@@ -474,10 +474,9 @@ body {
 .socials-link-footer:hover,
 .socials-link-footer:focus{
   background-color: var(--accent-color);
-
 }
 .socials-item-icon{
-  fill: var(--background-color);
+  fill: currentColor;
   width: 20px;
   height: 20px;
 }
