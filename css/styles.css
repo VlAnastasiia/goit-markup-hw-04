@@ -125,6 +125,7 @@ body {
 }
 .list-header{
   display: flex;
+  align-items: center;
   margin: 0;
   margin-left: auto;
 }
@@ -472,7 +473,7 @@ body {
 
 }
 .socials-item-icon{
-  fill: currentColor;
+  fill: var(--background-color);
 }
 
 /* portfolio filter buttons */
