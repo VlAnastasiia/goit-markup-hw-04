@@ -119,6 +119,8 @@ body {
 /* contact info in header */
 
 .list-header .link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   color: var(--primary-text-color);
