@@ -471,8 +471,8 @@ body {
   background-color: #ffffff1a;
   color: var(--background-color);
 }
-.socials-item-footer:hover,
-.socials-item-footer:focus{
+.socials-link-footer:hover,
+.socials-link-footer:focus{
   background-color: var(--accent-color);
 
 }
