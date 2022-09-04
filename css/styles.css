@@ -249,8 +249,10 @@ body {
   background-color: #F5F4FA;
 
 }
-.fe
-
+.feature-icon
+{
+  fill: currentColor;
+}
 /* images */
 .section.images
 {
@@ -468,6 +470,9 @@ body {
 .socials-item-footer:focus{
   background-color: var(--accent-color);
 
+}
+.socials-item-icon{
+  fill: currentColor;
 }
 
 /* portfolio filter buttons */
